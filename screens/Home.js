@@ -11,6 +11,7 @@ const Home = () => {
     const navigation = useNavigation();
 
     useEffect(() => {
+        
         navigation.setOptions({
             headerLeft: () => (
                 <FontAwesome name="search" size={24} color={colors.gray} style={{marginLeft: 15}}/>
